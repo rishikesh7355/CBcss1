@@ -1,0 +1,17 @@
+*{
+
+    color:red
+}
+div{
+    margin-left:40px;
+}
+p{
+    font-size:30px;
+}
+/* to use id # is used */
+#p2{
+    font-family:"Courier"
+}
+#ps{
+    margin-left:20px;
+}
