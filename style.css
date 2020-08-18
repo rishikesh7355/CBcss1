@@ -15,3 +15,10 @@ p{
 #ps{
     margin-left:20px;
 }
+.osmpara{
+    background-color:#008800
+/* dot is used to select classes */
+}
+.bogpara{
+    font-size:50px
+}

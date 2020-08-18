@@ -1,0 +1,30 @@
+*{
+    background-color: lightskyblue;
+}
+.cl1{
+    background-color:lightgreen;
+}
+#id1{
+    background-color:lightcoral;
+}
+/*precedence (rank or importance)order * < element<class<id
+whatever be the order of these */
+div{
+    background-color:lightslategrey
+}
+.cl2{
+    background-color:whitesmoke
+}
+/*just above exple of class precedes over element
+*/
+/**** id > class > element > *
+ star(* ) applies to all
+div,p applies to that type of element
+.abc applies to class abc
+#abc applies to id abc****/ 
+#id1{
+    background-color:blanchedalmond;
+}
+/* property applied to same clss ,
+id again then later style precedence 
+over old ones*/
