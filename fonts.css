@@ -1,0 +1,18 @@
+#div1{
+    font-size: 30px;
+   /* font-size:5vh;1vh=1/100 of window height
+   same for width*/
+
+}
+#div2{
+    /*font-family:sans-serif;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#div3{
+    font-style:italic;
+    font-weight:bold;
+}
+#div4{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
