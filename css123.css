@@ -1,0 +1,14 @@
+.box{
+    margin:50px;
+    padding:10px;
+    border:solid black;
+}
+#div1{
+    background-color:lightsalmon;
+}
+#div2{
+    background-color:white;
+}
+#div3{
+    background-color:green;
+}
