@@ -1,0 +1,19 @@
+/*simple selectors=.class,#id*,star
+combinator-selectors*/
+li{
+    font-weight:bold;
+    font-size: 5vh;
+}
+ul > li{
+    color:blue;
+
+}
+ol > li {
+    color:red;
+}
+ul ul {
+    font-style: italic;
+}
+ol~ul{
+    background-color: blueviolet;
+}
