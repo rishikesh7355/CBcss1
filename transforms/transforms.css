@@ -1,0 +1,12 @@
+#div1{
+    height:60px;
+    width:60px;
+    background-color: orange;
+    margin:50px;
+    /*transform:translate(50px,50px);/*to rotate or shift also takes negative values*/
+    /*transform:scale(.5);change the size*/ 
+    /*transform:skew(50deg,0); shifting the point in x,y plain looks like changing angles*/
+    /*transform:rotateX(88deg) ; x,y,z aixs rotation*/
+    /*tansform:scaleY(45deg);*/
+   /* transform:translateZ(30px);*/
+}
