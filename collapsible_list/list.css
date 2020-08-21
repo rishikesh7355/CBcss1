@@ -1,0 +1,10 @@
+ul ul {                    /*li space li means list inside list */
+    display:none;
+                          /*display none will hide the nested lists items only main list will be threr*/
+}
+li:hover{
+    color:red;
+}
+li:hover>ul{/*> means hovering over the parents ony then child elements are shown*/
+    display:block;
+}
