@@ -1,0 +1,10 @@
+#p1{
+    /*position: static; /*this is default*/
+    /*position:relative;*/
+   /* position: fixed;*/
+   /*position: absolute;*/
+   position:sticky;
+}
+#p2{
+    
+}
