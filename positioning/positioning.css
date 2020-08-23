@@ -1,10 +1,19 @@
-#p1{
-    /*position: static; /*this is default*/
-    /*position:relative;*/
-   /* position: fixed;*/
-   /*position: absolute;*/
-   position:sticky;
+div{
+    background-color:lightblue;
+    border:5px solid black;
+    margin:20px;
+    padding:20px;
 }
-#p2{
-    
+/*#div1{
+    position:sticky;*/
+}
+
+#div2{
+    position:fixed;
+}
+#div3{/*static and relative are almost same but in relative top bottom left right are allowed
+       and absolute tries to find nearest parents whose value is fixed*/
+    position:absolute;
+    /*top:30px;*/
+    top:120px;/*means 120px down from top */
 }
