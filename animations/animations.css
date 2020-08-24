@@ -1,0 +1,47 @@
+div{
+    background-color: greenyellow;
+    height:80px;
+    width:80px;
+    margin:40px;
+}
+
+/*@keyframes anyname{
+       from to }*/
+@keyframes slide{
+    from {
+        margin-right:40px;
+    }
+    to{
+        margin-left:300px;
+    }
+}
+@keyframes crazyslide{/*using percent menas that much percent of time here 6s*/
+    0%{
+        margin-left:40px;
+    }
+    50%{
+        height:10px;
+        background-color:orange;
+        margin-left:150px;
+    }
+    100%{
+        margin-left:300px;
+        background-color: yellow;
+    }
+
+
+}
+/*#div1{
+    animation-name:slide;
+    animation-duration:2s;
+    animation-iteration-count: 30;
+}*/
+#div1:hover+div{
+    animation-name:slide;
+    animation-duration:2s;
+    animation-iteration-count: 30;
+}
+#div3:hover+div{
+    animation-name:crazyslide;
+    animation-duration:6s;
+    animation-iteration-count: 30;
